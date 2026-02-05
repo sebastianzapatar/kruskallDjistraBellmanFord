@@ -59,6 +59,7 @@ public class Dijkstra {
         dij.addEdge(4,2,2);
         dij.addEdge(4,1,2);
         dij.addEdge(2,1,4);
+
         System.out.println(Arrays.toString(dij.dijkstra(0)));
 
     }
